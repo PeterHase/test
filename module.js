@@ -5,7 +5,10 @@ angular.module('test', [])//
 	return {
 		restrict: 'A',
 		replace: true,
-		template: '<div></div>'
+		template: '<div></div>',
+		controller: function($scope){
+		
+		}
 	};
 	
 }]);
