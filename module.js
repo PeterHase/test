@@ -7,7 +7,8 @@ angular.module('test', [])//
 		replace: true,
 		template: '<div></div>',
 		link: function(scope, element, attrs){
-		
+		},
+		controller: function($scope){
 		}
 	};
 	
